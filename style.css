@@ -1,0 +1,45 @@
+body{
+        background-color:rgb(152, 55, 217);
+        color: rgb rgb(23, 22, 22);
+        font-family: "Roboto Mono", monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        margin: 0;
+    }
+    
+    button {
+        background-color: #fa6fbc;
+        color: rgb(12, 12, 12);
+        font-family: "Roboto Mono", monospace;
+    }
+
+    .passo {
+        display: none;
+
+    }
+    .passo.ativo {
+        display:block ;
+    }
+    main {
+        text-align: center;
+        max-width: 90%;
+    }
+    img {
+        max-width: 90%;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
