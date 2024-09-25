@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+    <title>O Mistério da Ilha Perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/ilha.jpg" alt="">
+            <p>Você está em uma pequena vila à beira-mar. Recebe uma carta misteriosa com um mapa antigo que leva a uma ilha desconhecida.</p>
+            <button class="btn-proximo" data-proximo="1">Decidir explorar a ilha imediatamente.</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <img src="img/Marinheiro.png" alt="">
+            <p>Você parte para a ilha em um barco.Você conversa com um velho marinheiro na vila que conta histórias sobre a ilha e dá uma dica: "Cuidado com as armadilhas na floresta". Ao chegar, vê duas trilhas principais: uma que leva para uma floresta densa e outra que leva para uma caverna. </p>
+            <button class="btn-proximo" data-proximo="3">Seguir a trilha da floresta.</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="img/restrito.jpg" alt="">
+            <button class="btn-proximo" data-proximo="4">Ignorar o aviso e seguir para a floresta.</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="img/caverna.jpg" alt="">
+            <p>Na floresta, você encontra uma caverna que dentro ha uma escada, que nos leva para um outro universo, um caminho mágico.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir pelo caminho da  escada.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/dois tuneis.avif" alt="">
+            <p>Dentro da caverna, você encontra dois túneis: um maior e iluminado por cristais e outro pequeno e escuro.</p>
+            <button class="btn-proximo" data-proximo="6">Explorar o túnel iluminado.</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/tunel-brilhante.avif" alt="">
+            <p>Você se encanta com o que estava vendo mesmo sendo apenas o inicio. Encantado você continua o caminho.</p>
+            <button class="btn-proximo" data-proximo="8">seguir em frente.</button>
+            
+        </div>
+            <div class="passo" id="passo-8">
+            <img src="img/tesoro.jpg" alt="">
+            <p>O tunel que você entrou leva a um caminho sem saida, mas com uma surpresa, no final do tunel havia baus de ouro e prataria.Você achou o tesouro perdido e levou para casa, ajudou a sua familia e a população da sua cidade, que vivia em situações precarias.</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao inicio.</button>
+            <button class="btn-proximo" data-proximo="8">Finalizar a historia.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
